@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
   wrapper: {
     borderWidth: 3,
     borderColor: "black",
-    height: 200,
+    height: 100,
     flexDirection: "row",
     justifyContent: "space-between"
   },
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     height: 50,
     width: 50,
     backgroundColor: "green",
-    top: 50
+    alignSelf: "flex-end"
   },
   view3: {
     height: 50,
